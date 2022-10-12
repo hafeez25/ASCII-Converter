@@ -1,5 +1,5 @@
 .App {
-  font-family: monospace;
+  font-family: "Poppins", monospace;
   text-align: center;
   width: 100%;
   height: 100vh;
@@ -25,4 +25,5 @@
 
 .heading {
   font-size: large;
+  letter-spacing: 0.1rem;
 }
