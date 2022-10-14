@@ -7,6 +7,8 @@ ASCII-Converter is a very basic react app. The whole purpose of making this proj
 [https://asciiconverterapp.netlify.app/](https://asciiconverterapp.netlify.app/)
 
 ## Preview
+![ascii](https://user-images.githubusercontent.com/83756518/195785978-50d166f2-e789-40fe-8a39-b035023d76cf.png)
+
 
 ## Run ASCII-Converter App
 
