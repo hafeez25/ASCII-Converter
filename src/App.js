@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -8,13 +7,23 @@ function App() {
     code: "",
   });
 
+  //keys that should show e.code instead of e.key
+  const codeInsteadOfKey = [
+    { keyCode: 32, keyName: "space" },
+    { keyCode: 27, keyName: "escape" },
+  ];
+
   useEffect(() => {
     document.addEventListener("keydown", detectKeyDown, true);
   }, []);
 
+  const showCodeInsteadOfKey = (keyCode) => {
+    return codeInsteadOfKey.some((key) => key.keyCode === keyCode);
+  };
+
   const detectKeyDown = (e) => {
-    console.log(e);
-    let key = e.keyCode === 32 ? e.code : e.key;
+    e.preventDefault();
+    let key = showCodeInsteadOfKey(e.keyCode) ? e.code : e.key;
     let code = e.keyCode;
 
     setKeyCode({ key, code });
