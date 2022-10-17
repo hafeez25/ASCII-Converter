@@ -10,7 +10,7 @@
 }
 
 .key-code {
-  box-shadow: 0 0 10px rgb(243, 243, 243);
+  box-shadow: 0 0 10px rgb(245, 245, 245);
   width: 400px;
   padding: 3rem 1rem;
   word-spacing: 0.4rem;
@@ -20,7 +20,7 @@
   background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-radius: 0.54rem;
+  border-radius: 0.55rem;
 }
 
 .heading {
