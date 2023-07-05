@@ -2,15 +2,15 @@
 
 ASCII-Converter is a very basic react app. The whole purpose of making this project is any newbie can contribute in Hactoberfest.
 
-## Link 🌐
+# Link 🌐
 
 [https://asciiconverterapp.netlify.app/](https://asciiconverterapp.netlify.app/)
 
-## Preview
+# Preview
 ![ascii](https://user-images.githubusercontent.com/83756518/195785978-50d166f2-e789-40fe-8a39-b035023d76cf.png)
 
 
-## Run ASCII-Converter App
+# Run ASCII-Converter App
 
 ```bash
 npm install
@@ -20,7 +20,7 @@ npm install
 npm run install
 ```
 
-## Add Features or Issue in ASCII-Converter:
+# Add Features or Issue in ASCII-Converter:
 
 - You can make any changes like :
 - UI changes (color , size etc)
@@ -30,7 +30,7 @@ npm run install
 - Or add anything you think it can improve project
 - **NOTE :** Please read our [contribution guidelines](/CONTRIBUTING.md) before contribution.
 
-## Contributing 👨‍💻
+# Contributing 👨‍💻
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
